@@ -1,0 +1,4 @@
+baseURL = 'https://blog.humxc.icu/'
+languageCode = 'zh-cn'
+title = 'My New Hugo Site'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]

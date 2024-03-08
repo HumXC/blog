@@ -1,0 +1,9 @@
+{
+    "buildCommand": "mv ~go.mod go.mod && hugo --gc --minify --ignoreCache --verbose",
+    "installCommand": "yum install golang",
+    "build": {
+        "env": {
+            "HUGO_VERSION": "0.123.4"
+        }
+    }
+}

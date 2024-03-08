@@ -1,0 +1,8 @@
+/.direnv
+/.env
+/.env.build
+/public
+/resources
+/.hugo_build.lock
+/go.sum
+/go.mod
