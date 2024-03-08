@@ -6,3 +6,4 @@
 /.hugo_build.lock
 /go.sum
 /go.mod
+/assets

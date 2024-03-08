@@ -1,4 +1,7 @@
 baseURL = 'https://blog.humxc.icu/'
 languageCode = 'zh-cn'
-title = 'My New Hugo Site'
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+title = "HumXC's blog"
+theme = ["github.com/CaiJimmy/hugo-theme-stack/v3"]
+[params]
+author = "HumXC"
+googleAnalytics = "G-12345678"
