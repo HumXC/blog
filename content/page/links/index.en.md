@@ -1,10 +1,10 @@
 ---
 title: Links
 links:
-    - title: GitHub
-      description: GitHub is the world's largest software development platform.
-      website: https://github.com
-      image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+    - title: YogurtWZI
+      description: YogurtWZI's Pixiv page
+      website: https://www.pixiv.net/users/9631509
+      image: YogurtWZI.png
 menu:
     main:
         weight: -50
@@ -14,4 +14,4 @@ menu:
 comments: false
 ---
 
-Avatar and favicon come from [YogurtWZI](https://www.pixiv.net/users/9631509) (Unauthorized)
+Avatar and some icons are from [YogurtWZI](https://www.pixiv.net/users/9631509) (Unauthorized)

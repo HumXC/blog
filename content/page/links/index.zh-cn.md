@@ -1,10 +1,10 @@
 ---
 title: 链接
 links:
-    - title: GitHub
-      description: GitHub is the world's largest software development platform.
-      website: https://github.com
-      image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+    - title: YogurtWZI
+      description: YogurtWZI 的 Pixiv 主页
+      website: https://www.pixiv.net/users/9631509
+      image: YogurtWZI.png
 menu:
     main:
         weight: -50
@@ -14,4 +14,4 @@ menu:
 comments: false
 ---
 
-头像和网站图标来自 [YogurtWZI](https://www.pixiv.net/users/9631509) (未授权)
+头像和部分图标来自 [YogurtWZI](https://www.pixiv.net/users/9631509) (未授权)

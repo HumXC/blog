@@ -40,8 +40,6 @@ params:
     featuredImageField: image
     rssFullContent: true
     favicon: /favicon.ico
-    style:
-        "img": "border-radius=10px;"
     footer:
         since: 2023
         customText:
