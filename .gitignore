@@ -6,5 +6,4 @@
 /.hugo_build.lock
 /go.sum
 /go.mod
-/assets
-/flake.lock
+/assets/jsconfig.json

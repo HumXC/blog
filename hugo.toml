@@ -1,7 +1,0 @@
-baseURL = 'https://blog.humxc.icu/'
-languageCode = 'zh-cn'
-title = "HumXC's blog"
-theme = ["github.com/CaiJimmy/hugo-theme-stack/v3"]
-[params]
-author = "HumXC"
-googleAnalytics = "G-12345678"
