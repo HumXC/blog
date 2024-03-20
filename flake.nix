@@ -23,6 +23,7 @@
         devShells.default = pkgs.mkShell {
           buildInputs = [
             pkgs.hugo
+            pkgs.go
             hugo-new-content
             hugo-server
           ];

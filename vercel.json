@@ -1,5 +1,5 @@
 {
-    "buildCommand": "chmod +x ./build.sh && ./build.sh",
+    "buildCommand": "hugo --gc --minify --ignoreCache --verbose",
     "installCommand": "yum install golang",
     "build": {
         "env": {

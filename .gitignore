@@ -4,6 +4,4 @@
 /public
 /resources
 /.hugo_build.lock
-/go.sum
-/go.mod
 /assets/jsconfig.json
