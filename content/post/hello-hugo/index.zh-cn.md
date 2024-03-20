@@ -6,6 +6,7 @@ author: "HumXC"
 description: "以一种简单方便的方式部署 Hugo"
 tags:
     - Hugo
+    - Nixos
 image: "Cover.png"
 ---
 
@@ -13,7 +14,7 @@ image: "Cover.png"
 > The world’s fastest framework for building websites  
 >  _[gohugo.io](https://gohugo.io/)_
 
-本文来介绍一种部署 Hugo 的方式，并且能够快速部署到 [Vercel](https://vercel.com/) 上。
+本文介绍一种部署 Hugo 到 [Vercel](https://vercel.com/) 的方法。
 
 使用 Vercel 部署 Hugo 有以下几点好处:
 
@@ -137,6 +138,10 @@ theme: github.com/CaiJimmy/hugo-theme-stack/v3
 如果你的域名服务商是阿里或者腾讯, 可能还有一个 "解析线路" 的选项，如果有便将其选为 "海外"。
 
 回到 Vercel，刚刚添加的域名应该已经显示可用了。不过墙内可能依然不能访问，等待两天再试试。
+
+## Nixos 提示
+
+如果你使用 Nixos, 我写了一个 [flake.nix](https://github.com/HumXC/blog/blob/main/flake.nix) 可以直接使用 `nix develop github:HumXC/blog` 命令进入 hugo 的 shell，安装了 go 和 hugo。也可以配合 direnv 使用
 
 ## 结束
 
