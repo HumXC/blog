@@ -28,7 +28,7 @@ languages:
 
 services:
     googleAnalytics:
-        id: G-G737K6SLK9
+        id: G-92CJF57P5M
 
 params:
     mainSections:
