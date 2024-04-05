@@ -52,6 +52,12 @@ params:
             src: img/avatar.jpg
 
     article:
+        keyworlds: 
+            - humxc
+            - nixos
+            - hugo
+            - blog
+            - linux
         math: false
         toc: true
         readingTime: true
