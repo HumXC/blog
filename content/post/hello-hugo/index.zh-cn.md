@@ -12,15 +12,15 @@ image: "Cover.png"
 
 > Hugo 是世界上最快的建站框架 : )  
 > The world’s fastest framework for building websites  
->  _[gohugo.io](https://gohugo.io/)_
+> _[gohugo.io](https://gohugo.io/)_
 
 本文介绍一种部署 Hugo 到 [Vercel](https://vercel.com/) 的方法。
 
 使用 Vercel 部署 Hugo 有以下几点好处:
 
--   白嫖。
--   如果你有自己的域名，简单配置之后可以使博客在墙内也可以访问。
--   方便。部署完成后只需要将文章推送到 Github, Vercel 便能在半分钟内更新。
+- 白嫖。
+- 如果你有自己的域名，简单配置之后可以使博客在墙内也可以访问。
+- 方便。部署完成后只需要将文章推送到 Github, Vercel 便能在半分钟内更新。
 
 不过，在 Hugo 的 [Deploy 指导页面](https://gohugo.io/hosting-and-deployment/hugo-deploy/)中并没关于部署到 Vercel 的教程。如果你恰巧也希望通过 Vercel 部署你的 Hugo 博客，那么本文或许对有所帮助。
 
@@ -63,7 +63,7 @@ theme = "github.com/CaiJimmy/hugo-theme-stack/v3"
 然后运行 `hugo server`，访问终端上打印出来的地址，即可看到主题的效果。但是页面空空荡荡，那是因为主题还需要配置，主题的配置见 [stack 的文档](https://stack.jimmycai.com/)。值得一提的是，stack 提供了一个
 网站示例 [exampleSite](https://github.com/CaiJimmy/hugo-theme-stack/tree/master/exampleSite)，那是一个很好的实践，也可以直接以 stack 的 exampleSite 为基础逐步修建你自己的博客。
 
-## 番外: 以 stack 的 exampleSite 为基础创建博客。
+## 番外: 以 stack 的 exampleSite 为基础创建博客
 
 注意，先进入到一个空文件夹内
 
@@ -84,7 +84,7 @@ theme: github.com/CaiJimmy/hugo-theme-stack/v3
 
 ## 部署到 Vercel
 
-### 准备工作
+### 部署准备
 
 1. 先整理博客的 git 存储库, 在 `.gitignore` 中添加以下文件:
 
