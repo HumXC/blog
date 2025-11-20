@@ -1,7 +1,8 @@
 baseurl: https://blog.humxc.icu
 languageCode: en-us
 theme: github.com/CaiJimmy/hugo-theme-stack/v3
-paginate: 3
+pagination:
+    pagerSize: 3
 title: HumXC's blog
 copyright: HumXC
 
@@ -52,7 +53,7 @@ params:
             src: img/avatar.jpg
 
     article:
-        keyworlds: 
+        keyworlds:
             - humxc
             - nixos
             - hugo
