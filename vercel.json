@@ -3,7 +3,7 @@
     "installCommand": "yum install golang",
     "build": {
         "env": {
-            "HUGO_VERSION": "0.123.4"
+            "HUGO_VERSION": "0.152.2"
         }
     }
 }
