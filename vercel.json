@@ -1,6 +1,5 @@
 {
-    "buildCommand": "hugo --gc --minify --ignoreCache --verbose",
-    "installCommand": "yum install golang",
+    "buildCommand": "wget -q -O - https://git.io/vQhTU | bash && hugo --gc --minify --ignoreCache",
     "build": {
         "env": {
             "HUGO_VERSION": "0.152.2"
