@@ -12,7 +12,7 @@ tags:
   - FreeRTOS
   - Embedded
 aliases:
-image: "Cover.png"
+image: "Cover.jpg"
 ---
 为了制作一些玩具，我开始尝试使用 Zig 在 STM32 上编程。我选择了常见且便宜的 STM32F103C8T6，买好了开发板和 ST-Link/V2 调试器。本文将分享在 STM32 上使用 Zig 编写代码，基于 libopencm3 与 FreeRTOS 来闪烁 LED 的过程。制作这个项目也是我在 Zig 和 "嵌入式领域" 的一次探索，这也是我第一次使用 STM32。
 

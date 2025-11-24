@@ -11,7 +11,7 @@ tags:
   - libopencm3
   - FreeRTOS
   - Embedded
-image: "Cover.png"
+image: "Cover.jpg"
 ---
 
 To build some small gadgets, I decided to try programming an STM32 microcontroller using Zig. I went with the popular and inexpensive STM32F103C8T6 (the classic “Blue Pill”), bought a dev board and an ST-Link/V2 debugger. This article documents my journey of getting Zig to run on STM32, using **libopencm3** for hardware abstraction and **FreeRTOS** for task scheduling — all culminating in the timeless “blink an LED” demo.
