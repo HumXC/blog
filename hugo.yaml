@@ -9,6 +9,11 @@ copyright: HumXC
 DefaultContentLanguage: zh-cn
 
 hasCJKLanguage: true
+
+caches:
+    images:
+        dir: :cacheDir/images
+
 languages:
     en:
         languageName: English
