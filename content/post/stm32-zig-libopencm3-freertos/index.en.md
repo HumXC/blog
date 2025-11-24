@@ -1,7 +1,7 @@
 ---
 title: "Driving STM32 with Zig: Bare-Metal Development Using libopencm3 and FreeRTOS"
 date: "2025-11-20T09:33:52+08:00"
-draft: true
+draft: false
 author: "HumXC"
 slug: "stm32-zig-libopencm3-freertos"
 description: "Writing Zig code for STM32 using libopencm3 and FreeRTOS to blink an LED"

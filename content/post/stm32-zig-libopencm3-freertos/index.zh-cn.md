@@ -1,7 +1,7 @@
 ---
 title: 'Zig 驱动 STM32：基于 libopencm3 与 FreeRTOS 的裸机开发体验'
 date: "2025-11-20T09:33:52+08:00"
-draft: true
+draft: false
 author: "HumXC"
 slug: "stm32-zig-libopencm3-freertos"
 description: "在 STM32 上使用 Zig 编写代码，基于 libopencm3 与 FreeRTOS 来闪烁 LED"
